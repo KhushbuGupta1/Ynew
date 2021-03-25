@@ -23,22 +23,22 @@ function preload(){
   enemy1Image = loadImage("enemy1.png")
   enemy2Image = loadImage("enemy2.png")
 
-  enemySound = loadSound("sounds/enemyspotted.mp3")
+  enemySound = loadSound("enemyspotted.mp3")
   
   laughImage = loadImage('laugh.png')
-  laughSound = loadSound("sounds/enemy1.mp3")
+  laughSound = loadSound("enemy1.mp3")
   
   coffinImage  = loadImage("coffindance.png")
-  coffinSound = loadSound("sounds/enemy.mp3")
+  coffinSound = loadSound("enemy.mp3")
   
   sadImage = loadImage("sad.png")
-  sadSound = loadSound("sounds/sad.mp3")
+  sadSound = loadSound("sad.mp3")
   
   restartImage = loadImage("restart.png")
   
-  achive1 = loadSound("sounds/Five.mp3");
-achive2 = loadSound("sounds/Ten.mp3");
-achive3 = loadSound("sounds/fifty.mp3");
+  achive1 = loadSound("Five.mp3");
+achive2 = loadSound("Ten.mp3");
+achive3 = loadSound("fifty.mp3");
 }
 
 
